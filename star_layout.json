@@ -1,0 +1,29 @@
+{
+  "$schema": "https://parallel-launcher.ca/layout/advanced-01/schema.json",
+  "format": {
+    "save_type": "EEPROM",
+    "num_slots": 4,
+    "slots_start": 0,
+    "slot_size": 112,
+    "active_bit": 95,
+    "checksum_offset": 54
+  },
+  "groups": [
+    {
+      "name": "Cities",
+      "side": "left",
+      "courses": [
+        { "name": "Tokyo", "data": [ { "offset": 12, "mask": 127 } ] },
+        { "name": "Paris", "data": [ { "offset": 13, "mask": 127 } ] },
+        { "name": "New York", "data": [ { "offset": 14, "mask": 127 } ] }
+      ]
+    },
+    {
+      "name": "Peach's Starport",
+      "side": "right",
+      "courses": [
+        { "name": "Secret Stars", "data": [ { "offset": 8, "mask": 63 } ] }
+      ]
+    }
+  ]
+}
